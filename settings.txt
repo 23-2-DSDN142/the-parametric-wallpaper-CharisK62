@@ -23,6 +23,14 @@ var fishingY = 10; //40
 var blushY = 110; // 112
 var blushShape = 8;// 5
   //let c = color(236, 112, 99   ); // body colour
+var blushColour=1
+
+colour updates 
+update line 27 (41, 128, 185)
+update line 32 (241, 148, 138)
+update line 36 (0,0,0)
+update line 57 (137, 207, 240)
+update line 80 (255,178,102)
 
 function setup_wallpaper(pWallpaper) {
   pWallpaper.output_mode(GRID_WALLPAPER);
@@ -52,6 +60,12 @@ var fishingY = 10; //40
 var blushY = 115; // 112
 var blushShape = 8;// 5
   //let c = color(118, 68, 138  ); // body colour
+var blushColour=1
+
+colour updates 
+update line 27 (235, 222, 240)
+update line 32 (125, 60, 152)
+update line 80 (201,143,168)
 
 function setup_wallpaper(pWallpaper) {
    pWallpaper.output_mode(GRID_WALLPAPER);
@@ -81,6 +95,13 @@ var fishingY = 5; //40
 var blushY = 115; // 112
 var blushShape = 8;// 5
   //let c = color(91, 44, 111  ); // body colours
+var blushColour=1
+
+colour updates 
+update line 27 (84, 153, 199)
+update line 32(108, 52, 131)
+update line 77 (84, 153, 199)
+update line 80 (201,143,168)
 
 function setup_wallpaper(pWallpaper) {
  pWallpaper.output_mode(GRID_WALLPAPER);
@@ -111,6 +132,15 @@ var fishingY = 10; //40
 var blushY = 110; // 112
 var blushShape = 8;// 5
   //let c = color(250, 215, 160); // body colour
+  var blushColour=1
+
+colour updates 
+update line 27(214, 234, 248)
+update line 32 (249, 231, 159)
+update line 36 (0,0,0)
+update line 50 (254, 249, 231)
+update line 80 (201,143,168)
+upate line 90 (255,255,255)
 
 function setup_wallpaper(pWallpaper) {
   pWallpaper.output_mode(GRID_WALLPAPER);
@@ -139,6 +169,15 @@ var fishingY = 35; //40
 var blushY = 115; // 112
 var blushShape = 4;// 5
   //let c = color(225,153,153); // body colour
+  var blushColour=1
+
+colour upates 
+update line 27 (244,244,244)
+update line 32 (245, 183, 177)
+update line 36 (0,0,0)
+update line 75 (137, 207, 240)
+update line 80 (201,143,168)
+
 
 function setup_wallpaper(pWallpaper) {
    pWallpaper.output_mode(GRID_WALLPAPER);
@@ -169,6 +208,14 @@ var fishingY = 50; //40
 var blushY = 108; // 112
 var blushShape = 7;// 5
 //let c = color(0,0,0); // body colour
+var blushColour=1
+
+colour updates
+update line 27 (244,244,244)
+update line 32 (0,0,0)
+update line 36 (0,0,0)
+update line 75 (0,0,244)
+update line 83 (255,178,102)
 
 function setup_wallpaper(pWallpaper) {
   pWallpaper.output_mode(GRID_WALLPAPER);
@@ -199,6 +246,14 @@ var fishingY = 10; //40
 var blushY = 110; // 112
 var blushShape = 7;// 5
 //let c = color(0,0,0); // body colour
+var blushColour=1
+
+colour updates 
+update line 27 (214, 234, 248)
+update line 32 (0,0,0)
+update line 36 (0,0,0)
+update line 50 (254, 249, 231)
+update line 80 (255,178,102)
 
 function setup_wallpaper(pWallpaper) {
   pWallpaper.output_mode(GRID_WALLPAPER);
@@ -228,10 +283,16 @@ var fishingY = 40; //40
 var blushY = 110; // 112
 var blushShape = 5;// 5
 //let c = color(0, 51, 104); // body colour
+var blushColour=1
+
+colour update 
+update line 27 (249, 235, 234)
+update line 32 (0,0,0)
+update line 83 (255,178,102)
 
 function setup_wallpaper(pWallpaper) {
   pWallpaper.output_mode(GRID_WALLPAPER);
-  pWallpaper.resolution(FIT_TO_SCREEN);
+  pWallpaper.resolution(NINE_LANDSCAPE);
   pWallpaper.show_guide(false); //set this to false when you're ready to print
 
   //Grid settings
@@ -256,10 +317,11 @@ var fishingY = 40; //40
 var blushY = 112; // 112
 var blushShape = 5;// 5
 //let c = color(0,51,104); // body colour
+var blushColour=1
 
 function setup_wallpaper(pWallpaper) {
   pWallpaper.output_mode(GRID_WALLPAPER);
-  pWallpaper.resolution(NINE_LANDSCAPA3);
+  pWallpaper.resolution(A3);
   pWallpaper.show_guide(false); //set this to false when you're ready to print
 
   //Grid settings

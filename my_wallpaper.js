@@ -11,7 +11,6 @@ var fishingY = 40; //40
 var blushY = 112; // 112
 var blushShape = 5;// 5
 //let detailColour = color(0,51,104); // body colour
- 
 var blushColour=1
 
 function setup_wallpaper(pWallpaper) {
@@ -64,7 +63,7 @@ noStroke();
   ellipse(121, 97, 4,eyeSize -4); // right eye sparkle
   
   If (blushColour==1);{
-    fill(255,0,0) //(225,153,153)
+    fill(225,153,153)
   }
   fill(225,153,153)
   ellipse(80, blushY, 10, blushShape); // left blush
